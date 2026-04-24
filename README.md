@@ -1,5 +1,5 @@
 <!-- ========================= THEME =========================
-Shonen power-up inspired: violet aura + gold lightning + dark canvas
+Original anime-inspired power-up: violet aura + gold lightning + dark canvas
 =========================================================== -->
 
 <p align="center">
@@ -26,11 +26,11 @@ Shonen power-up inspired: violet aura + gold lightning + dark canvas
 
 ---
 
-## ⚡ Current Power Level
+## ⚡ Build Mode
 
 <table>
   <tr>
-    <td><b>Mode</b></td>
+    <td><b>Current mode</b></td>
     <td>Building AI products with TypeScript, Python, and product-first UX</td>
   </tr>
   <tr>

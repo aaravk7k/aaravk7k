@@ -1,50 +1,64 @@
 <svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Aarav Kapoor original shonen aura AI builder header</title>
-  <desc id="desc">Original anime-inspired power-up banner with violet aura, gold lightning, and project cards.</desc>
+  <title id="title">Aarav Kapoor original anime-inspired AI builder header</title>
+  <desc id="desc">Original anime-inspired developer banner with violet aura, gold lightning, energy wings, and AI project cards.</desc>
   <style>
-    .aura { animation: aura 2.9s ease-in-out infinite; transform-origin: 600px 230px; }
-    .aura.two { animation-delay: .5s; animation-duration: 3.7s; }
-    .hair { animation: flame 1.8s ease-in-out infinite; transform-origin: center bottom; }
-    .bolt { stroke-dasharray: 180; stroke-dashoffset: 180; animation: bolt 1.35s ease-in-out infinite; }
-    .bolt.two { animation-delay: .35s; }
-    .bolt.three { animation-delay: .7s; }
-    .float { animation: float 3.2s ease-in-out infinite; }
-    .float.two { animation-delay: .6s; }
-    .pulse { animation: pulse 2.2s ease-in-out infinite; transform-origin: center; }
-    .scan { animation: scan 4s linear infinite; }
+    .core { animation: core 2.6s ease-in-out infinite; transform-origin: 600px 228px; }
+    .wing-left { animation: wingLeft 3.4s ease-in-out infinite; transform-origin: 600px 236px; }
+    .wing-right { animation: wingRight 3.4s ease-in-out infinite; transform-origin: 600px 236px; }
+    .flame { animation: flame 1.6s ease-in-out infinite; transform-origin: 600px 280px; }
+    .bolt { stroke-dasharray: 210; stroke-dashoffset: 210; animation: bolt 1.45s ease-in-out infinite; }
+    .bolt.two { animation-delay: .32s; }
+    .bolt.three { animation-delay: .68s; }
+    .bolt.four { animation-delay: 1s; }
+    .card { animation: float 3.2s ease-in-out infinite; }
+    .card.right { animation-delay: .55s; }
+    .spark { animation: spark 2s ease-in-out infinite; transform-origin: center; }
+    .spark.two { animation-delay: .45s; }
+    .spark.three { animation-delay: .9s; }
+    .scan { animation: scan 4.4s linear infinite; }
     .typing { animation: typing 1s steps(1) infinite; }
 
-    @keyframes aura {
-      0%, 100% { opacity: .42; transform: scale(.96); }
-      50% { opacity: .95; transform: scale(1.06); }
+    @keyframes core {
+      0%, 100% { opacity: .78; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.035); }
+    }
+
+    @keyframes wingLeft {
+      0%, 100% { transform: rotate(0deg) translateX(0); opacity: .74; }
+      50% { transform: rotate(-3deg) translateX(-8px); opacity: 1; }
+    }
+
+    @keyframes wingRight {
+      0%, 100% { transform: rotate(0deg) translateX(0); opacity: .74; }
+      50% { transform: rotate(3deg) translateX(8px); opacity: 1; }
     }
 
     @keyframes flame {
-      0%, 100% { transform: skewX(0deg) translateY(0); }
-      50% { transform: skewX(-3deg) translateY(-8px); }
+      0%, 100% { transform: translateY(0) scaleY(1); }
+      50% { transform: translateY(-10px) scaleY(1.08); }
     }
 
     @keyframes bolt {
-      0% { stroke-dashoffset: 180; opacity: 0; }
+      0% { stroke-dashoffset: 210; opacity: 0; }
       18% { opacity: 1; }
-      50% { stroke-dashoffset: 0; opacity: 1; }
-      100% { stroke-dashoffset: -180; opacity: 0; }
+      52% { stroke-dashoffset: 0; opacity: 1; }
+      100% { stroke-dashoffset: -210; opacity: 0; }
     }
 
     @keyframes float {
       0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-12px); }
+      50% { transform: translateY(-10px); }
     }
 
-    @keyframes pulse {
-      0%, 100% { opacity: .45; transform: scale(1); }
-      50% { opacity: 1; transform: scale(1.08); }
+    @keyframes spark {
+      0%, 100% { opacity: .32; transform: scale(.72); }
+      50% { opacity: 1; transform: scale(1.18); }
     }
 
     @keyframes scan {
-      from { transform: translateX(-360px); opacity: 0; }
-      20% { opacity: .45; }
-      80% { opacity: .18; }
+      from { transform: translateX(-320px); opacity: 0; }
+      22% { opacity: .38; }
+      78% { opacity: .14; }
       to { transform: translateX(1220px); opacity: 0; }
     }
 
@@ -56,90 +70,99 @@
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#090212"/>
-      <stop offset=".42" stop-color="#1E103A"/>
-      <stop offset=".72" stop-color="#4C1D95"/>
-      <stop offset="1" stop-color="#120817"/>
+      <stop stop-color="#05030A"/>
+      <stop offset=".38" stop-color="#160B2E"/>
+      <stop offset=".66" stop-color="#3B0764"/>
+      <stop offset="1" stop-color="#090212"/>
     </linearGradient>
-    <radialGradient id="violetAura" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 230) rotate(90) scale(260 390)">
-      <stop stop-color="#F5D0FE" stop-opacity=".74"/>
-      <stop offset=".28" stop-color="#A855F7" stop-opacity=".42"/>
-      <stop offset=".62" stop-color="#6D28D9" stop-opacity=".24"/>
-      <stop offset="1" stop-color="#0B0614" stop-opacity="0"/>
+    <radialGradient id="aura" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 225) rotate(90) scale(282 430)">
+      <stop stop-color="#FFFFFF" stop-opacity=".62"/>
+      <stop offset=".2" stop-color="#F5D0FE" stop-opacity=".6"/>
+      <stop offset=".48" stop-color="#A855F7" stop-opacity=".32"/>
+      <stop offset=".76" stop-color="#6D28D9" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#090212" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="gold" x1="300" y1="50" x2="880" y2="380" gradientUnits="userSpaceOnUse">
+    <linearGradient id="gold" x1="388" y1="54" x2="812" y2="376" gradientUnits="userSpaceOnUse">
       <stop stop-color="#FEF3C7"/>
-      <stop offset=".48" stop-color="#FBBF24"/>
+      <stop offset=".44" stop-color="#FBBF24"/>
       <stop offset="1" stop-color="#F97316"/>
     </linearGradient>
-    <linearGradient id="scanBeam" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="violet" x1="366" y1="70" x2="830" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5D0FE"/>
+      <stop offset=".42" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#4C1D95"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
       <stop stop-color="#FBBF24" stop-opacity="0"/>
       <stop offset=".5" stop-color="#F5D0FE" stop-opacity=".8"/>
       <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
     </linearGradient>
-    <filter id="purpleGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="15" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 .65 0 0 0 0 .25 0 0 0 0 1 0 0 0 .85 0"/>
+    <filter id="purpleGlow" x="-55%" y="-55%" width="210%" height="210%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 .68 0 0 0 0 .27 0 0 0 0 1 0 0 0 .88 0"/>
       <feBlend in="SourceGraphic" mode="screen"/>
     </filter>
-    <filter id="goldGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="9" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 1 0 0 0 0 .72 0 0 0 0 .12 0 0 0 .9 0"/>
+    <filter id="goldGlow" x="-55%" y="-55%" width="210%" height="210%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 1 0 0 0 0 .75 0 0 0 0 .08 0 0 0 .9 0"/>
       <feBlend in="SourceGraphic" mode="screen"/>
     </filter>
   </defs>
 
   <rect width="1200" height="430" rx="26" fill="url(#bg)"/>
-  <rect width="1200" height="430" rx="26" fill="url(#violetAura)"/>
+  <rect width="1200" height="430" rx="26" fill="url(#aura)"/>
 
-  <g opacity=".12" stroke="#F5D0FE">
-    <path d="M0 72H1200M0 144H1200M0 216H1200M0 288H1200M0 360H1200"/>
-    <path d="M100 0V430M200 0V430M300 0V430M400 0V430M500 0V430M600 0V430M700 0V430M800 0V430M900 0V430M1000 0V430M1100 0V430"/>
+  <g opacity=".1" stroke="#F5D0FE">
+    <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200"/>
+    <path d="M90 0V430M180 0V430M270 0V430M360 0V430M450 0V430M540 0V430M630 0V430M720 0V430M810 0V430M900 0V430M990 0V430M1080 0V430M1170 0V430"/>
   </g>
 
-  <rect class="scan" x="0" y="0" width="260" height="430" fill="url(#scanBeam)" opacity=".36"/>
+  <rect class="scan" x="0" y="0" width="250" height="430" fill="url(#beam)" opacity=".34"/>
 
   <g filter="url(#purpleGlow)">
-    <path class="aura" d="M600 56C694 118 748 222 716 328C682 388 516 388 484 328C452 220 506 116 600 56Z" fill="#A855F7" fill-opacity=".24" stroke="#F5D0FE" stroke-opacity=".38" stroke-width="3"/>
-    <path class="aura two" d="M600 30C728 112 812 236 756 374C706 424 494 424 444 374C388 236 472 112 600 30Z" fill="#6D28D9" fill-opacity=".14" stroke="#FBBF24" stroke-opacity=".32" stroke-width="2"/>
+    <path class="wing-left" d="M586 184C498 178 410 216 334 310C436 284 520 304 588 360C552 292 552 236 586 184Z" fill="url(#violet)" fill-opacity=".28" stroke="#F5D0FE" stroke-opacity=".32" stroke-width="2"/>
+    <path class="wing-right" d="M614 184C702 178 790 216 866 310C764 284 680 304 612 360C648 292 648 236 614 184Z" fill="url(#violet)" fill-opacity=".28" stroke="#F5D0FE" stroke-opacity=".32" stroke-width="2"/>
   </g>
 
   <g filter="url(#goldGlow)" stroke-linecap="round" stroke-linejoin="round">
-    <path class="bolt" d="M452 118L510 92L486 164L548 132" stroke="url(#gold)" stroke-width="5"/>
-    <path class="bolt two" d="M730 112L682 166L744 148L704 224" stroke="url(#gold)" stroke-width="5"/>
-    <path class="bolt three" d="M426 278L492 248L462 330L538 286" stroke="#FDE68A" stroke-width="4"/>
-    <path class="bolt two" d="M770 270L708 302L742 332L682 372" stroke="#FBBF24" stroke-width="4"/>
+    <path class="bolt" d="M436 102L508 72L474 166L552 122" stroke="url(#gold)" stroke-width="5"/>
+    <path class="bolt two" d="M760 92L696 166L770 142L718 232" stroke="url(#gold)" stroke-width="5"/>
+    <path class="bolt three" d="M400 284L482 246L444 342L538 282" stroke="#FDE68A" stroke-width="4"/>
+    <path class="bolt four" d="M800 274L724 312L768 342L694 386" stroke="#FBBF24" stroke-width="4"/>
   </g>
 
-  <g transform="translate(118 86)" class="float">
-    <rect width="372" height="220" rx="18" fill="#0B0614" fill-opacity=".76" stroke="#A855F7" stroke-opacity=".4"/>
-    <text x="32" y="58" fill="#F5D0FE" font-family="SFMono-Regular, Consolas, monospace" font-size="20">AARAV.K</text>
-    <text x="32" y="104" fill="#FBBF24" font-family="SFMono-Regular, Consolas, monospace" font-size="28" font-weight="700">AI BUILDER</text>
-    <text x="32" y="146" fill="#E9D5FF" font-family="SFMono-Regular, Consolas, monospace" font-size="19">TypeScript / Python</text>
-    <text x="32" y="180" fill="#C4B5FD" font-family="SFMono-Regular, Consolas, monospace" font-size="18">product UX / agents</text>
-    <rect class="typing" x="252" y="124" width="12" height="26" rx="2" fill="#FBBF24"/>
+  <g transform="translate(110 92)" class="card">
+    <rect width="374" height="214" rx="18" fill="#0B0614" fill-opacity=".78" stroke="#A855F7" stroke-opacity=".42"/>
+    <text x="30" y="54" fill="#F5D0FE" font-family="SFMono-Regular, Consolas, monospace" font-size="18">CURRENT MODE</text>
+    <text x="30" y="98" fill="#FBBF24" font-family="SFMono-Regular, Consolas, monospace" font-size="28" font-weight="700">AI BUILDER</text>
+    <text x="30" y="138" fill="#E9D5FF" font-family="SFMono-Regular, Consolas, monospace" font-size="18">TypeScript / Python</text>
+    <text x="30" y="172" fill="#C4B5FD" font-family="SFMono-Regular, Consolas, monospace" font-size="17">clean interfaces + agents</text>
+    <rect class="typing" x="258" y="116" width="12" height="26" rx="2" fill="#FBBF24"/>
   </g>
 
-  <g transform="translate(710 92)" class="float two">
-    <rect width="366" height="226" rx="18" fill="#0B0614" fill-opacity=".72" stroke="#FBBF24" stroke-opacity=".38"/>
-    <text x="30" y="54" fill="#FEF3C7" font-family="SFMono-Regular, Consolas, monospace" font-size="19">TOP BUILDS</text>
-    <rect x="30" y="78" width="230" height="36" rx="10" fill="#581C87" stroke="#D8B4FE" stroke-opacity=".45"/>
-    <text x="48" y="102" fill="#F5D0FE" font-family="SFMono-Regular, Consolas, monospace" font-size="17">music-ai</text>
-    <rect x="30" y="128" width="292" height="36" rx="10" fill="#422006" stroke="#FBBF24" stroke-opacity=".5"/>
-    <text x="48" y="152" fill="#FEF3C7" font-family="SFMono-Regular, Consolas, monospace" font-size="17">investor-swipe</text>
-    <rect x="30" y="178" width="270" height="36" rx="10" fill="#312E81" stroke="#A5B4FC" stroke-opacity=".5"/>
-    <text x="48" y="202" fill="#E0E7FF" font-family="SFMono-Regular, Consolas, monospace" font-size="17">hotel-ai-agent</text>
+  <g transform="translate(716 96)" class="card right">
+    <rect width="372" height="220" rx="18" fill="#0B0614" fill-opacity=".74" stroke="#FBBF24" stroke-opacity=".38"/>
+    <text x="30" y="52" fill="#FEF3C7" font-family="SFMono-Regular, Consolas, monospace" font-size="18">TOP BUILDS</text>
+    <rect x="30" y="76" width="228" height="36" rx="10" fill="#581C87" stroke="#D8B4FE" stroke-opacity=".45"/>
+    <text x="48" y="100" fill="#F5D0FE" font-family="SFMono-Regular, Consolas, monospace" font-size="16">music-ai</text>
+    <rect x="30" y="126" width="292" height="36" rx="10" fill="#422006" stroke="#FBBF24" stroke-opacity=".5"/>
+    <text x="48" y="150" fill="#FEF3C7" font-family="SFMono-Regular, Consolas, monospace" font-size="16">investor-swipe</text>
+    <rect x="30" y="176" width="270" height="36" rx="10" fill="#312E81" stroke="#A5B4FC" stroke-opacity=".5"/>
+    <text x="48" y="200" fill="#E0E7FF" font-family="SFMono-Regular, Consolas, monospace" font-size="16">hotel-ai-agent</text>
   </g>
 
-  <g filter="url(#purpleGlow)">
-    <path class="hair" d="M600 126L566 188L584 176L560 244L596 212L600 302L606 212L642 244L616 176L636 188L600 126Z" fill="#FBBF24" fill-opacity=".92" stroke="#FEF3C7" stroke-width="2"/>
-    <circle cx="600" cy="244" r="44" fill="#1F1235" stroke="#F5D0FE" stroke-opacity=".55" stroke-width="3"/>
-    <path d="M574 244C584 238 592 238 600 244C608 238 618 238 628 244" stroke="#FDE68A" stroke-width="4" stroke-linecap="round"/>
-    <path d="M600 258L590 276H610L600 258Z" fill="#0B0614" stroke="#A855F7" stroke-opacity=".6"/>
-    <circle class="pulse" cx="600" cy="244" r="72" stroke="#F5D0FE" stroke-width="2" fill="none"/>
+  <g class="core" filter="url(#purpleGlow)">
+    <path class="flame" d="M600 78L560 174L586 154L548 246L590 214L600 326L610 214L652 246L614 154L640 174L600 78Z" fill="url(#gold)" stroke="#FEF3C7" stroke-width="2"/>
+    <circle cx="600" cy="240" r="50" fill="#1F1235" stroke="#F5D0FE" stroke-opacity=".65" stroke-width="3"/>
+    <path d="M568 244C582 236 592 236 600 244C608 236 620 236 634 244" stroke="#FDE68A" stroke-width="4" stroke-linecap="round"/>
+    <path d="M600 258L588 280H612L600 258Z" fill="#0B0614" stroke="#A855F7" stroke-opacity=".75"/>
+    <path d="M556 330C584 306 616 306 644 330C632 372 568 372 556 330Z" fill="#0B0614" stroke="#FBBF24" stroke-opacity=".5"/>
+    <circle class="spark" cx="528" cy="170" r="6" fill="#FDE68A"/>
+    <circle class="spark two" cx="684" cy="172" r="6" fill="#F5D0FE"/>
+    <circle class="spark three" cx="600" cy="360" r="7" fill="#FBBF24"/>
   </g>
 
-  <g opacity=".22">
+  <g opacity=".24">
     <rect x="0" y="0" width="1200" height="430" rx="26" stroke="#F5D0FE" stroke-width="2"/>
     <path d="M0 18H1200M0 412H1200" stroke="#FBBF24" stroke-width="2"/>
   </g>
