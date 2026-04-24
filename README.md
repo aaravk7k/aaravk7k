@@ -1,78 +1,130 @@
+<!-- ========================= THEME =========================
+Primary: #EF4444 | Accent: #38BDF8 | BG: #050505
+=========================================================== -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:050505,45:7F1D1D,100:EF4444&text=Aarav%20Kapoor&fontColor=FEE2E2&fontSize=54&fontAlignY=38&animation=twinkling&desc=AI%20Apps%20%E2%80%A2%20TypeScript%20%E2%80%A2%20Python%20Agents&descAlignY=63&descSize=18" alt="Aarav Kapoor banner" />
+</p>
+
 <div align="center">
-  <img src="./assets/animated-header.svg" alt="Aarav Kapoor animated AI builder profile header" width="100%" />
+  <img src="./assets/animated-header.svg" alt="Aarav Kapoor animated dark AI builder header" width="100%" />
 </div>
 
-<h1 align="center">Aarav Kapoor</h1>
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=34&pause=850&color=EF4444&center=true&vCenter=true&width=900&lines=Aarav+Kapoor;AI+Product+Builder;TypeScript+%7C+Python+%7C+Product+UX" alt="Typing title" />
+</h1>
 
 <p align="center">
-  <b>AI product builder focused on TypeScript, Python, and clean user experiences.</b>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&pause=900&color=38BDF8&center=true&vCenter=true&width=980&lines=Building+AI+tools+that+feel+fast%2C+useful%2C+and+sharp.;Music+AI+%E2%80%A2+Investor+UX+%E2%80%A2+Hotel+Agents.;Currently+shipping+private+TypeScript+and+Python+projects." alt="Typing subtitle" />
 </p>
 
 <p align="center">
-  I like building things that feel useful fast: AI tools, decision interfaces, full-stack experiments,
-  and small systems that turn messy ideas into working products.
+  <a href="mailto:akapoo52@asu.edu"><img src="https://img.shields.io/badge/Email-050505?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EF4444" alt="Email" /></a>
+  <a href="https://github.com/aaravk7k"><img src="https://img.shields.io/badge/GitHub-050505?style=for-the-badge&logo=github&logoColor=white&labelColor=111827" alt="GitHub" /></a>
+  <img src="https://komarev.com/ghpvc/?username=aaravk7k&style=for-the-badge&color=EF4444&label=Profile%20Views" alt="Profile views" />
 </p>
 
 <p align="center">
-  <a href="mailto:akapoo52@asu.edu">
-    <img alt="Email" src="https://img.shields.io/badge/Email-akapoo52%40asu.edu-0f766e?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/aaravk7k?tab=repositories">
-    <img alt="Repositories" src="https://img.shields.io/badge/Repos-Current%20Builds-111827?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <img alt="Focus" src="https://img.shields.io/badge/Focus-AI%20Apps%20%2B%20Product%20UX-2563eb?style=for-the-badge&logo=sparkles&logoColor=white" />
+  <a href="#-now">Now</a> ·
+  <a href="#-top-projects">Projects</a> ·
+  <a href="#-toolbox">Toolbox</a> ·
+  <a href="#-github-snapshot">Stats</a> ·
+  <a href="#-connect">Connect</a>
 </p>
 
 ---
 
-### Current Top Projects
+## 🧠 Now
 
-| Project | Status | Stack | What It Shows |
-| --- | --- | --- | --- |
-| **music-ai** | Private, actively updated | TypeScript | AI-powered music product work, frontend architecture, product polish, and fast iteration |
-| **investor-swipe** | Private, actively updated | TypeScript | Swipe-based decision UX for investment discovery, interface design, and state-driven product flows |
-| **hotel-ai-agent** | Private, actively updated | Python | AI agent workflow for hotel/travel use cases, backend logic, automation, and practical Python systems |
+- Building **music-ai**, a TypeScript-based AI music product with a polished user experience
+- Building **investor-swipe**, a swipe-first TypeScript interface for investment discovery and decision flows
+- Building **hotel-ai-agent**, a Python agent workflow for hotel/travel automation
+- Leveling up in **AI apps, product UX, frontend architecture, Python automation, and clean GitHub presentation**
 
-### What I'm Building Toward
+---
 
-- AI applications that combine useful models with interfaces people can actually understand
-- Full-stack products with sharp UX, clear state, and practical workflows
-- Python automation and agent-style systems that can reason over real tasks
-- Better engineering habits every week: readable code, clean commits, and projects that tell a story
+## ⚡ Highlights
 
-### Public Coursework And Foundations
+<table>
+  <tr>
+    <td><b>Focus</b></td>
+    <td>AI products, TypeScript apps, Python agents, product UX</td>
+  </tr>
+  <tr>
+    <td><b>Current builds</b></td>
+    <td>music-ai, investor-swipe, hotel-ai-agent</td>
+  </tr>
+  <tr>
+    <td><b>Style</b></td>
+    <td>Fast iteration, sharp interfaces, practical automation, clean presentation</td>
+  </tr>
+  <tr>
+    <td><b>Public foundations</b></td>
+    <td>XML/XSD schema work, Java utilities, Git fundamentals</td>
+  </tr>
+</table>
 
-| Repository | Stack | Focus |
+---
+
+## 🧰 Toolbox
+
+<p align="center">
+  <b>Languages</b> · <b>Frontend</b> · <b>Backend</b> · <b>Developer Tools</b>
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,python,java,html,css&theme=dark&perline=12" alt="Languages" />
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,vite&theme=dark&perline=12" alt="Frontend and backend tools" />
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,postgres,sqlite&theme=dark&perline=12" alt="Developer tools" />
+</p>
+
+---
+
+## 📌 Top Projects
+
+> My strongest current builds are private, so this profile summarizes the product and engineering work without exposing source code.
+
+| Project | What It Is | Tech |
 | --- | --- | --- |
-| [`cse445-assignment4`](https://github.com/aaravk7k/cse445-assignment4) | XML, XSD | Structured data modeling, schema design, and validation |
-| [`git-lab-cse464`](https://github.com/aaravk7k/git-lab-cse464) | Java | Git fundamentals, Java utility methods, and small-program structure |
+| **music-ai** | AI-powered music product work with emphasis on product polish, frontend structure, and fast iteration | TypeScript |
+| **investor-swipe** | Swipe-based investment discovery experience with decision-focused UI flows | TypeScript |
+| **hotel-ai-agent** | Agent-style hotel/travel automation workflow focused on practical backend logic | Python |
 
-### Tech Stack
+---
 
-<p>
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" />
-  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
-</p>
+## 🧩 Public Foundations
 
-### GitHub Snapshot
+| Repository | What It Shows | Tech |
+| --- | --- | --- |
+| [`cse445-assignment4`](https://github.com/aaravk7k/cse445-assignment4) | Structured data modeling with XML and XSD validation | XML, XSD |
+| [`git-lab-cse464`](https://github.com/aaravk7k/git-lab-cse464) | Java basics, utility methods, and Git workflow practice | Java |
 
-<p align="center">
-  <img height="165" alt="Aarav's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=aaravk7k&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" />
-  <img height="165" alt="Aarav's top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaravk7k&layout=compact&hide_border=true&theme=transparent" />
-</p>
+---
+
+## 📊 GitHub Snapshot
 
 <p align="center">
-  <img alt="GitHub activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=aaravk7k&theme=github-compact&hide_border=true&area=true" />
+  <img height="165" alt="Aarav's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=aaravk7k&show_icons=true&hide_border=true&rank_icon=github&theme=radical" />
+  <img height="165" alt="Aarav's top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaravk7k&layout=compact&hide_border=true&theme=radical" />
+</p>
+
+<p align="center">
+  <img alt="GitHub activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=aaravk7k&theme=redical&hide_border=true&area=true" />
 </p>
 
 ---
 
+## 🤝 Connect
+
+- Email: **akapoo52@asu.edu**
+- GitHub: **[@aaravk7k](https://github.com/aaravk7k)**
+
 <p align="center">
-  <i>Open to internships, early-career software roles, and ambitious project collaborations.</i>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:EF4444,55:7F1D1D,100:050505&section=footer" alt="Footer wave" />
 </p>
