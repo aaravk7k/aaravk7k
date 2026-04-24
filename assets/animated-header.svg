@@ -1,6 +1,6 @@
 <svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Aarav Kapoor animated dark ops AI builder header</title>
-  <desc id="desc">Original crimson noir animated GitHub profile banner with scanlines, rain, radar pulses, and AI project cards.</desc>
+  <desc id="desc">Original crimson noir animated GitHub profile banner with a city skyline, scanlines, rain, radar pulses, and AI project cards.</desc>
   <style>
     .rain-a { animation: rain 1.8s linear infinite; }
     .rain-b { animation: rain 2.4s linear infinite; animation-delay: .4s; }
@@ -18,6 +18,12 @@
     .dash.two { animation-delay: 1s; }
     .typing { animation: typing 1s steps(1) infinite; }
     .flicker { animation: flicker 4s linear infinite; }
+    .city { animation: cityGlow 5s ease-in-out infinite; }
+    .cape { animation: cape 3.6s ease-in-out infinite; transform-origin: 586px 276px; }
+    .eye { animation: eye 2.2s ease-in-out infinite; }
+    .strike { stroke-dasharray: 220; stroke-dashoffset: 220; animation: strike 2.4s ease-in-out infinite; }
+    .strike.two { animation-delay: .8s; }
+    .strike.three { animation-delay: 1.4s; }
 
     @keyframes rain {
       0% { transform: translateY(-460px); opacity: 0; }
@@ -74,6 +80,28 @@
       0%, 11%, 13%, 54%, 56%, 100% { opacity: 1; }
       12%, 55% { opacity: .45; }
     }
+
+    @keyframes cityGlow {
+      0%, 100% { opacity: .34; }
+      50% { opacity: .72; }
+    }
+
+    @keyframes cape {
+      0%, 100% { transform: skewX(0deg) translateX(0); }
+      50% { transform: skewX(-4deg) translateX(-8px); }
+    }
+
+    @keyframes eye {
+      0%, 100% { opacity: .58; }
+      50% { opacity: 1; }
+    }
+
+    @keyframes strike {
+      0% { stroke-dashoffset: 220; opacity: 0; }
+      22% { opacity: 1; }
+      48% { stroke-dashoffset: 0; opacity: .95; }
+      100% { stroke-dashoffset: -220; opacity: 0; }
+    }
   </style>
 
   <defs>
@@ -114,6 +142,19 @@
 
   <rect width="1200" height="430" rx="26" fill="url(#bg)"/>
   <rect width="1200" height="430" rx="26" fill="url(#redAura)"/>
+
+  <g class="city" fill="#020617" stroke="#EF4444" stroke-opacity=".22">
+    <rect x="0" y="306" width="70" height="124"/>
+    <rect x="84" y="270" width="58" height="160"/>
+    <rect x="160" y="318" width="92" height="112"/>
+    <rect x="270" y="250" width="74" height="180"/>
+    <rect x="368" y="292" width="60" height="138"/>
+    <rect x="446" y="330" width="98" height="100"/>
+    <rect x="1018" y="286" width="64" height="144"/>
+    <rect x="1102" y="242" width="56" height="188"/>
+    <rect x="1170" y="316" width="46" height="114"/>
+    <path d="M0 306H70M84 270H142M160 318H252M270 250H344M368 292H428M446 330H544M1018 286H1082M1102 242H1158M1170 316H1216"/>
+  </g>
 
   <g opacity=".16" stroke="#F3F4F6">
     <path d="M0 54H1200M0 108H1200M0 162H1200M0 216H1200M0 270H1200M0 324H1200M0 378H1200"/>
@@ -163,6 +204,23 @@
     <circle class="pulse" cx="0" cy="0" r="9" fill="#FEE2E2"/>
     <circle class="pulse two" cx="36" cy="-28" r="6" fill="#F97316"/>
     <circle class="pulse three" cx="-42" cy="32" r="6" fill="#38BDF8"/>
+  </g>
+
+  <g filter="url(#hotGlow)">
+    <path class="cape" d="M566 258C506 278 472 330 438 414H704C678 348 642 288 606 258C594 272 580 272 566 258Z" fill="#050505" fill-opacity=".86" stroke="#EF4444" stroke-opacity=".36"/>
+    <path d="M546 212C546 178 566 154 592 154C622 154 642 178 642 212C642 238 626 260 594 272C562 260 546 238 546 212Z" fill="#09090B" stroke="#FCA5A5" stroke-opacity=".45" stroke-width="2"/>
+    <path d="M558 198C568 188 578 184 592 184C608 184 622 188 632 198C626 176 612 164 592 164C574 164 562 176 558 198Z" fill="#7F1D1D" fill-opacity=".78"/>
+    <path class="eye" d="M566 210C574 205 582 205 590 210" stroke="#FEE2E2" stroke-width="3" stroke-linecap="round"/>
+    <path class="eye" d="M598 210C606 205 616 205 624 210" stroke="#FEE2E2" stroke-width="3" stroke-linecap="round"/>
+    <path d="M592 220L584 236H602L592 220Z" fill="#111827" stroke="#EF4444" stroke-opacity=".55"/>
+    <path d="M548 188L526 140L570 170" fill="#09090B" stroke="#EF4444" stroke-opacity=".5" stroke-width="2"/>
+    <path d="M636 188L660 140L616 170" fill="#09090B" stroke="#EF4444" stroke-opacity=".5" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#coldGlow)" stroke-linecap="round">
+    <path class="strike" d="M376 164L468 126L430 204L526 160" stroke="#FEE2E2" stroke-width="4"/>
+    <path class="strike two" d="M760 284L850 246L816 324L916 280" stroke="#EF4444" stroke-width="5"/>
+    <path class="strike three" d="M498 342L548 304L534 366L602 328" stroke="#38BDF8" stroke-width="3"/>
   </g>
 
   <g opacity=".2">
