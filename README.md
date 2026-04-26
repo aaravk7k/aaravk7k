@@ -9,7 +9,7 @@ Executive noir: black marble + ivory + crimson accent
 <h1 align="center">Aarav Kapoor</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=800&size=28&pause=850&color=F5F5F5&center=true&vCenter=true&width=900&lines=AI+Product+Builder;TypeScript+%2F+Python+%2F+Product+UX;Private+builds.+Clean+execution." alt="Animated executive noir title" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=800&size=28&pause=850&color=F5F5F5&center=true&vCenter=true&width=900&lines=AI+Product+Builder;TypeScript+%2F+Python+%2F+Product+UX;Public+repos.+Clean+execution." alt="Animated executive noir title" />
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@ Executive noir: black marble + ivory + crimson accent
 </p>
 
 <p align="center">
-  Building private AI products with sharp interfaces, practical automation, and clean execution.
+  Building AI products with sharp interfaces, practical automation, and clean execution.
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@ Executive noir: black marble + ivory + crimson accent
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=17&pause=900&color=FCA5A5&center=true&vCenter=true&width=900&lines=Objective%3A+ship+useful+AI+products.;Method%3A+sharp+interfaces%2C+fast+iterations%2C+clean+systems.;Current+builds%3A+music-ai+%7C+investor-swipe+%7C+hotel-ai-agent" alt="Animated mission line" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=17&pause=900&color=FCA5A5&center=true&vCenter=true&width=900&lines=Objective%3A+ship+useful+AI+products.;music-ai%3A+Next.js+music+assistant+%2B+playlist+actions.;hotel-ai-agent%3A+full-stack+hotel+operations+agent." alt="Animated mission line" />
 </p>
 
 ---
@@ -37,7 +37,7 @@ Executive noir: black marble + ivory + crimson accent
 </p>
 
 I build software like a product operator: clear objective, clean interface, fast iteration, and a bias toward shipping.
-Right now I am focused on AI-powered tools, TypeScript apps, and Python agent workflows.
+Right now I am focused on AI-powered tools, TypeScript/Next.js apps, Python agent workflows, and deployable full-stack systems.
 
 <table>
   <tr>
@@ -46,7 +46,7 @@ Right now I am focused on AI-powered tools, TypeScript apps, and Python agent wo
   </tr>
   <tr>
     <td><b>Top builds</b></td>
-    <td>music-ai, investor-swipe, hotel-ai-agent</td>
+    <td>music-ai, hotel-ai-agent, investor-swipe</td>
   </tr>
   <tr>
     <td><b>Working style</b></td>
@@ -70,25 +70,25 @@ Right now I am focused on AI-powered tools, TypeScript apps, and Python agent wo
   <img src="https://capsule-render.vercel.app/api?type=rect&height=72&color=0:991B1B,45:18181B,100:050505&text=TOP%20PROJECTS&fontColor=F5F5F5&fontSize=24&fontAlignY=50" alt="Top projects section banner" />
 </p>
 
-> My strongest current builds are private, so this profile summarizes the product and engineering work without exposing source code.
+> My strongest builds are now visible where possible. `investor-swipe` remains private, so it is summarized without exposing source code.
 
 <table>
   <tr>
-    <td width="28%"><b>music-ai</b><br/><sub>Private · TypeScript</sub></td>
-    <td>AI-powered music product work with emphasis on polished UX, frontend structure, and fast iteration.</td>
+    <td width="28%"><b><a href="https://github.com/aaravk7k/music-ai">music-ai</a></b><br/><sub>Public · TypeScript · 1 star</sub></td>
+    <td>Conversation-first music and entertainment assistant built with Next.js. Supports playlist drafting/actions, Spotify and Apple Music adapters, debate mode, local session storage, optional OpenAI planning, and an experimental Local Studio for text-to-music workflows.</td>
+  </tr>
+  <tr>
+    <td><b><a href="https://github.com/aaravk7k/hotel-ai-agent">hotel-ai-agent</a></b><br/><sub>Public · Python/JS · 1 star</sub></td>
+    <td>Agentic hotel operations manager with role-based demo auth, controlled autonomy, approval gates, audit logs, Server-Sent Events, integration adapters, Docker Compose, and a React operations console.</td>
   </tr>
   <tr>
     <td><b>investor-swipe</b><br/><sub>Private · TypeScript</sub></td>
     <td>Swipe-based investment discovery experience focused on decision flows, state, and interface clarity.</td>
   </tr>
-  <tr>
-    <td><b>hotel-ai-agent</b><br/><sub>Private · Python</sub></td>
-    <td>Agent-style hotel/travel automation workflow built around practical backend logic and task execution.</td>
-  </tr>
 </table>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1100&color=F5F5F5&center=true&vCenter=true&width=850&lines=music-ai+%E2%86%92+AI+music+product+polish;investor-swipe+%E2%86%92+decision-first+interface;hotel-ai-agent+%E2%86%92+Python+agent+workflow" alt="Animated project ticker" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1100&color=F5F5F5&center=true&vCenter=true&width=900&lines=music-ai+%E2%86%92+playlist+actions+%2B+music+assistant;hotel-ai-agent+%E2%86%92+approval-gated+ops+agent;investor-swipe+%E2%86%92+decision-first+interface" alt="Animated project ticker" />
 </p>
 
 ---
@@ -108,15 +108,15 @@ Right now I am focused on AI-powered tools, TypeScript apps, and Python agent wo
 <table>
   <tr>
     <td><b>Frontend</b></td>
-    <td>TypeScript, React, Next.js, Tailwind, product UI</td>
+    <td>TypeScript, React, Next.js, Vite, Tailwind, product UI</td>
   </tr>
   <tr>
     <td><b>Backend</b></td>
-    <td>Python, Node.js, API logic, automation workflows</td>
+    <td>Python, Node.js, API logic, agent workflows, audit logging</td>
   </tr>
   <tr>
     <td><b>Workflow</b></td>
-    <td>Git, GitHub, fast commits, clean project presentation</td>
+    <td>Git, GitHub, Docker Compose, local-first demos, clean project presentation</td>
   </tr>
 </table>
 
@@ -128,6 +128,8 @@ Right now I am focused on AI-powered tools, TypeScript apps, and Python agent wo
 
 | Repository | What It Shows | Tech |
 | --- | --- | --- |
+| [`music-ai`](https://github.com/aaravk7k/music-ai) | Next.js AI assistant, provider adapters, playlist actions, local music-generation workflow | TypeScript, Next.js |
+| [`hotel-ai-agent`](https://github.com/aaravk7k/hotel-ai-agent) | Full-stack operations agent, approval gates, audit logs, SSE, Docker deployment path | Python, React, Docker |
 | [`cse445-assignment4`](https://github.com/aaravk7k/cse445-assignment4) | Structured data modeling with XML and XSD validation | XML, XSD |
 | [`git-lab-cse464`](https://github.com/aaravk7k/git-lab-cse464) | Java basics, utility methods, and Git workflow practice | Java |
 

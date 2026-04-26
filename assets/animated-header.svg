@@ -117,9 +117,9 @@
     <rect x="28" y="78" width="214" height="34" rx="6" fill="#18181B" stroke="#991B1B" stroke-opacity=".48"/>
     <text x="44" y="101" fill="#F5F5F5" font-family="SFMono-Regular, Consolas, monospace" font-size="16">music-ai</text>
     <rect x="28" y="126" width="274" height="34" rx="6" fill="#18181B" stroke="#A1A1AA" stroke-opacity=".36"/>
-    <text x="44" y="149" fill="#E4E4E7" font-family="SFMono-Regular, Consolas, monospace" font-size="16">investor-swipe</text>
+    <text x="44" y="149" fill="#E4E4E7" font-family="SFMono-Regular, Consolas, monospace" font-size="16">hotel-ai-agent</text>
     <rect x="28" y="174" width="250" height="34" rx="6" fill="#18181B" stroke="#991B1B" stroke-opacity=".48"/>
-    <text x="44" y="197" fill="#FCA5A5" font-family="SFMono-Regular, Consolas, monospace" font-size="16">hotel-ai-agent</text>
+    <text x="44" y="197" fill="#FCA5A5" font-family="SFMono-Regular, Consolas, monospace" font-size="16">investor-swipe</text>
   </g>
 
   <g transform="translate(600 216)" filter="url(#softGlow)">
