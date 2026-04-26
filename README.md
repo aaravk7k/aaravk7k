@@ -141,7 +141,18 @@ Right now I am focused on AI-powered tools, TypeScript/Next.js apps, Python agen
 
 <p align="center">
   <img height="165" alt="Aarav's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=aaravk7k&show_icons=true&hide_border=true&rank_icon=github&theme=dark" />
-  <img height="165" alt="Aarav's top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaravk7k&layout=compact&hide_border=true&theme=dark" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-111111?style=for-the-badge&logo=typescript&logoColor=white&labelColor=991B1B" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=white&labelColor=27272A" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=white&labelColor=991B1B" alt="Python" />
+  <img src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=white&labelColor=27272A" alt="React" />
+  <img src="https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=white&labelColor=991B1B" alt="Docker" />
+</p>
+
+<p align="center">
+  <sub>Current stack shown manually because third-party language cards can lag behind new public repos or over-weight small coursework repositories.</sub>
 </p>
 
 <p align="center">
